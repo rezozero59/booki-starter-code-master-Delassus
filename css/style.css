@@ -45,7 +45,7 @@ header{
     
 }
 
-ul{
+.navigation ul{
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
@@ -57,6 +57,7 @@ ul{
 .searchContainer {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 h1 {
@@ -92,6 +93,20 @@ justify-content: flex-start;
     font-weight: 700;
     
 }
+
+.filtersArea{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.filterContainer{
+    display: flex;
+    list-style-type: none;
+    
+
+}
+
 .main-container {
     width: 100%;
     max-width: 1440px;
