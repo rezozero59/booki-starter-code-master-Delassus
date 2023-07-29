@@ -91,20 +91,32 @@ justify-content: flex-start;
     width: 195px;
     font-size: 1rem;
     font-weight: 700;
-    
 }
 
 .filtersArea{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     width: 100%;
+    gap: 15px;
+    margin: 35px 0;
 }
 
 .filterContainer{
-    display: flex;
-    list-style-type: none;
     
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    
+}
 
+.filterContainer button{
+    background-color: white;
+    border: 1px solid black;
+    height: 50px;
+    width: 173px;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 .main-container {
