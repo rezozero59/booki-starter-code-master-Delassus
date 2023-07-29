@@ -54,6 +54,22 @@ header{
     gap: 68px;
 }
 
+.navLinks:link{
+    
+    text-decoration: none;
+}
+.navLinks:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.navLinks:hover{
+    text-decoration: overline ;
+    color: #0065FC;
+
+}
+
+
 .searchContainer {
     display: flex;
     flex-direction: column;
@@ -127,6 +143,10 @@ justify-content: flex-start;
     font-weight: 700;
     padding: 19px;
     gap: 10px;
+}
+
+.filter:hover{
+    background-color: var(--filter-bg-color);
 }
 
 .moreInfo{
