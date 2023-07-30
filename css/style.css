@@ -241,13 +241,23 @@ background-color: white;
 .hebergements {
     width: 65%;
 }
-.hebergements_cards .cardH{
+
+.hebergements_cards{
     display: flex;
-    flex-direction: column;
-    margin-top: 33px;
+    flex-wrap: wrap;
+    
 }
 
-.hebergements_cards .card-contentH{
+.hebergements_cards .card{
+    width: 30%;
+}
+
+.hebergements_cards img{
+    height: 124px;
+
+}
+
+ .card-contentH{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
