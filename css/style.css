@@ -270,10 +270,15 @@ background-color: white;
  .card-contentH{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     box-sizing: border-box;
+    padding-left: 15px;
 }
 
+.card-rating {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
 
 
 /****** Populaires ***********/
