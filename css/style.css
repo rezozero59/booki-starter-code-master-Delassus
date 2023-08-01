@@ -21,15 +21,19 @@ body {
 
 p {
     margin: 0px;
+    font-weight: 400;
+    font-size: 0,87;
+   
+}
+
+h3 {
+   
+    font-size: 1rem;
 }
 header{
     display: flex;
     flex-direction: column;
-    
-    
 
-    
-   
 }
 
 .navigation {
@@ -213,9 +217,7 @@ background-color: white;
     object-fit: cover;
 }
 
-.card-title {
-    font-size: 16px;
-}
+
 
 .euro {
     font-weight: 700;
@@ -270,11 +272,20 @@ background-color: white;
  .card-contentH{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: start;
     box-sizing: border-box;
-    padding-left: 15px;
+    padding: 0 15px 0 15px;
 }
 
+.card-titleH{
+margin-top: 10px;
+margin-bottom: 8px;
+}
+
+.afficherPlus p{
+    font-weight: 700;
+
+}
 .card-rating {
     margin-top: 8px;
     margin-bottom: 8px;
