@@ -245,6 +245,7 @@ background-color: white;
     width: 65%;
 }
 
+
 .hebergements_cards{
     margin-bottom: 30px;
     width: 100%;
@@ -382,7 +383,21 @@ margin-bottom: 8px;
     font-weight: 700;
 }
 
+.footer-Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #F2F2F2;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
 
+.footer-Contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
