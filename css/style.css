@@ -410,13 +410,23 @@ margin-bottom: 8px;
     width: 100%;
     background-color: #F2F2F2;
     padding: 0 50px;
+    height: 123px;
     box-sizing: border-box;
 }
 
 .footer-Contain {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    padding: 20px;
+  
+}
+
+.footer-Contain h3 {
+    margin: 0px
+}
+.footer-Contain p {
+    margin: 0px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
