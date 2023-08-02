@@ -14,6 +14,7 @@
     color: var(--main-color);
 }
 
+
 body {
     display: flex;
     justify-content: center;
@@ -97,7 +98,7 @@ header{
     margin-bottom: 35px;
 }
 .searching{
-    height: 49px;
+    height: 50px;
     width: 377px;
     
 }
@@ -105,6 +106,25 @@ header{
 .form {
 display: flex;
 justify-content: flex-start;
+height: 50px
+}
+
+.location-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F2F2F2;
+    height: 3,125rem;
+    width: 50px;
+    border-radius: 15px 0px 0px 15px;
+}
+#location-icon{
+height: 1rem;
+
+color: black;
+
+
+
 }
 
 #btnSearch{
