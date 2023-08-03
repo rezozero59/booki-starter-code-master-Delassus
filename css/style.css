@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    max-width: 1440px;
     
 }
 
@@ -463,6 +464,7 @@ footer p:hover{
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
