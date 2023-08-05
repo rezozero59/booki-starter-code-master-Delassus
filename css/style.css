@@ -600,5 +600,47 @@ footer p:hover{
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+* {
+    margin: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    
+}
+
+.phraseHerbergement {
+    font-size: 1.2rem;
+    /* margin-top: 30px; */
+    
+}
+
+.searchContainer p {
+    font-size: 1rem;
+    
+}
+
+.filtersArea{
+    flex-direction: column;
+
+}
+
+.filterContainer{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+}
+
+.filter p {
+    font-size: 0.7rem;
 }
