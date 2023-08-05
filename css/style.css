@@ -157,6 +157,7 @@ color: black;
     width: 8.25rem;
     font-size: 16px;
     font-weight: 700;
+    
 }
 
 #btnSearch:hover{
@@ -184,8 +185,8 @@ color: black;
     margin-bottom: 35px;
 }
 
-.filtres {
-    color: black;
+.filtres p{
+    
     font-weight: 700;
     margin: 0rem;
     
@@ -204,6 +205,7 @@ color: black;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: black;
     background-color: white;
     border: .0625rem solid #D9D9D9;
     border-radius: 1.5625rem;
@@ -213,6 +215,13 @@ color: black;
     padding: 19px;
     gap: 10px;
 }
+
+.filterContainer button p {
+    font-size: 0.8rem;  
+    font-weight: 700;
+}
+
+
 .filter{
     display: flex;
     justify-content: center;
@@ -234,9 +243,13 @@ color: black;
 }
 
 .iconInfo {
+display: block;
 border-radius: 50%;
-border: .0625rem solid #D9D9D9;
+border: .0625rem solid #bdbdbd;
 background-color: white;
+
+height: 0,875rem;
+width: 0,875rem;
 }
 
 
@@ -499,10 +512,13 @@ footer p:hover{
         margin-left: auto;
         margin-right: auto;
     }
+   
 }
 
 /*Transition entre les tailles d'écran*/
 @media (min-width: 63.9988rem) and (max-width: 81.25rem) {
+    
+
     
     .hebergements-and-populaires {
         margin-left: auto;
@@ -652,6 +668,7 @@ height: 50px;
 width: 50px;
 border-radius: 15px;
 background: var(--main-color);
+filter: drop-shadow(0rem .1875rem .9375rem rgba(0, 0, 0, 0.1));
 
 }
 
@@ -659,6 +676,19 @@ background: var(--main-color);
     display: block;
     height: 16px;
     color: rgb(255, 255, 255);
+}
+
+.searching{
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.form{
+    
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem; 
 }
 
 .filtersArea{
