@@ -19,9 +19,11 @@
 
     <div class="main-container">
         <header>
+            <!-- Logo et liens Heb et Act -->
             <nav class="navigation">
                 <img class="logo" src="./images/logo/Booki.png" alt="logo Booki">
                 <ul >
+                    <!-- Différence version locale/en ligne sur lien "activités" -->
                     <li> <a href="#hebergements_link" class="navLinks">Hébergements</a></li>
                     <li><a href="#activites_link" class="navLinks">Activités</a></li>
                 </ul>
@@ -30,7 +32,6 @@
           
         </header>
 
-    
 
         <main>  
             <div class="searchContainer">
@@ -43,14 +44,16 @@
                     <form action="search" class="form">
                         <div class="location-container">
                             <i id="location-icon" class="fa-solid fa-location-dot"></i></div>
-                        
+                        <!-- Peut-on modifier le style du placeholder -->
                         <input type="text" name="place" id="place" placeholder="Marseille, France">
                         <input type="button" value="Rechercher" id="btnSearch">
+                        <!-- Recherche version mobile (icone loupe) -->
                         <div class="loupe">
                             <i id="loupe-icon" class="fa-solid fa-magnifying-glass"></i>
                         </div>
                      </form>
             </div>
+            <!-- Filtres (style hover) -->
                 <div class="filtersArea">
                     <div class="filtres"><p>Filtres</p></div>
                     <div class="filterContainer">
@@ -66,18 +69,24 @@
                         </i>Nos pépites</button>
                     </div>
                 </div>
+                <!-- Gestion icone pour gérer le style, problème avec version mobile  -->
                 <div class="moreInfo">
                     <button class="iconInfo"><i class="fa-solid fa-info"></i></button>
                     <p>Plus de 500 logements sont disponibles dans cette ville</p></div>
             </div>
+            <!-- Hébergements et Populaires -->
+            <!-- Attention: inverser ordre blocks en mobile -->
             <div class="hebergements-and-populaires">
+                
                 <section class="hebergements">
+                    <!-- Gestion flexbox: un block de 6 ou deux de 3? -->
                     <div class="herbergements-title" id="hebergements_link">
                         <h2 class="section-title">Hébergements à Marseille</h2>
                     </div>
                     <div class="hebergements_cards">
+                        <!-- Modèle Fiches produits -->
                         <article class="card">
-                            <img src="./images/hebergements/fred-kleber.jpg "alt="chambre avec lit">
+                            <img src="./images/hebergements/fred-kleber.jpg " alt="chambre avec lit">
                             <div class="card-contentH">
                                 <div class="card-txtH">
                                     <h3 class="card-titleH">Hôtel du port</h3>
@@ -93,6 +102,7 @@
                                 </div>
                             </div>
                         </article>
+
                         <article class="card">
                             <img src="./images/hebergements/febrian-zakaria.jpg" alt="chambre avec lit et bureau">
                             <div class="card-contentH">
@@ -244,6 +254,8 @@
                     </div>
                 </section>
             </div>
+
+            <!-- Activités -->  
             <div class="activites">
                 <div class="activites_title" id="activites_link">
                     <h2>Activités à Marseille</h2>
@@ -281,14 +293,12 @@
                             </div> 
                         </div>
                     </article>
-                    
-
-
                 </div>
             </div>
 
         </main>
         <footer>
+            <!-- RAS en Desktop et tablettes, mais problème de gestion de style en mobile -->
             <div class="footer-Container">
                 <div class="footer-Contain">
                     <h3 class="a-propos">A propos</h3>
