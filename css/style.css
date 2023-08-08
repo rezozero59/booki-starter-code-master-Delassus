@@ -450,11 +450,6 @@ margin-bottom: .5rem;
 
 }
 
-.card-content-Activite{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .card-title-activites h3 {
     font-size: 16px;
     font-weight: 700;
@@ -811,9 +806,9 @@ footer{
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
-    height: 310px;
+    height: 450px;
     margin-top: 20px;
-    mar
+    margin: 20px 0px ;
     padding: 15px;
 
 
@@ -822,9 +817,14 @@ footer{
 
 .footer-Contain{
     width: 100%;
-    margin-top: 15px;
     display: flex;
     justify-content: start;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.card-title-actvites{
+    margin: 10px 0;
 }
 
 
