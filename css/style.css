@@ -437,7 +437,6 @@ margin-bottom: .5rem;
     display: flex;
     flex-direction: column;
     border-radius: 1.25rem;
-    
     box-shadow: 0rem .1875rem .9375rem 0rem rgba(0, 0, 0, 0.10);
 
 }
@@ -795,8 +794,11 @@ filter: drop-shadow(0rem .1875rem .9375rem rgba(0, 0, 0, 0.1));
 }
 .card-activites {
     width: 100%;
+    align-items: flex-start;
 }
+.card-title-activites{
 
+}
 /*********FOOTER Mobile ***********/
 
 footer{
@@ -822,10 +824,5 @@ footer{
     padding: 10px;
     margin: 15px 0;
 }
-
-.card-title-actvites{
-    margin: 10px 0;
-}
-
 
 }
