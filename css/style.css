@@ -38,14 +38,9 @@ header{
 
 }
 
-/* *********  Cards simulation liens ************/ 
-
-.card:hover{
-    cursor: pointer;
-}
-
-.card-activites:hover{
-    cursor: pointer;
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 
@@ -235,14 +230,11 @@ color: black;
 .moreInfo{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    
+    align-items: center;  
     margin-bottom: 35px;
-    
 }
-/* Attention, souci sur le cercle en mobile */
-.iconInfo {
 
+.iconInfo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -318,7 +310,7 @@ color: black;
     width: 65%;
 }
 
-.hebergements_cards{
+.hebergements_cards {
     margin-bottom: 1.875rem;
     width: 100%;
     display: flex;
@@ -327,7 +319,8 @@ color: black;
     column-gap: 1.875rem;
 }
 
-.hebergements_cards .card{
+
+.hebergements_cards a{
     display: flex;
     flex-direction: column;
     min-width:29%;
@@ -429,8 +422,12 @@ margin-bottom: .5rem;
     flex-wrap: wrap;
     
 }
-.card-activites {
+.activites_card_container a {
     width: 20%;
+}
+
+.card-activites {
+    
     display: flex;
     flex-direction: column;
     border-radius: 1.25rem;
@@ -515,7 +512,7 @@ footer{
    
 }
 
-/*Transition entre les tailles d'écran, non demandé mais eaasai pour gérer la réduction en largeur de la fenêtre*/
+/*Transition entre les tailles d'écran, non demandé mais essai pour gérer la réduction en largeur de la fenêtre*/
 
 
 /* @media (min-width: 63.9988rem) and (max-width: 81.25rem) {
@@ -599,12 +596,14 @@ footer{
     justify-content: space-between;
 }   
 
-.populaires-cards .card {
+.populaires-cards a {
     width: 30%;
 }
 
-.card-activites {
+.activites_card_container a {
     width: 20%;
+}
+.card-activites {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -778,7 +777,7 @@ font-size: 1.125rem;
     flex-direction: column
 }
 
-.populaires-cards .card {
+.populaires-cards a {
     width: 100%;
     margin-top: 20px;
 }
@@ -818,8 +817,10 @@ padding: 0;
     align-items: center;
     width: 100%;
 }
-.card-activites {
+.activites_card_container a {
     width: 100%;
+}
+.card-activites {
     display: flex;
     align-items: flex-start;
 }
