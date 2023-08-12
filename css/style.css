@@ -135,7 +135,6 @@ header{
     justify-content: center;
     align-items: center;
     background: #F2F2F2;
-    height: 3,2000px;
     width: 3.125rem;
     /* rem ne fonctionne pas sur le width */
     border-radius: .9375rem 0rem 0rem .9375rem;
@@ -451,6 +450,9 @@ margin-bottom: .5rem;
     margin: 20px
 }
 
+.card-activites h3 {
+    margin: 20px;
+}
 
 /************Footer***************/
 footer p:hover{
