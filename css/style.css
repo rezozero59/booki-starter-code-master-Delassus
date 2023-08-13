@@ -1,4 +1,4 @@
-/****** General ***********/
+
 * {
     font-family: 'Raleway', sans-serif;
     max-width: 90rem;
@@ -14,7 +14,6 @@
     color: var(--main-color);
 }
 
-/******** Balises  **********/
 
 body {
     display: flex;
@@ -22,20 +21,17 @@ body {
 }
 
 p {
-    
     font-weight: 400;
     font-size: 13.92px;
-   
 }
 
-h3 {
-   
+h3 {   
     font-size: 16px;
 }
+
 header{
     display: flex;
     flex-direction: column;
-
 }
 
 a {
@@ -44,7 +40,7 @@ a {
 }
 
 
-/* header */
+
 .navigation {
    
     display: flex;
@@ -57,8 +53,6 @@ a {
     padding: 1.875rem 0rem;
     height: 1.1875rem;
     width: 3.8125rem;
-    /* height: 10px;
-    width: 61.008px; */
 }
 
 .logo:hover{
@@ -90,14 +84,12 @@ a {
 
 }
 
-/*********** Rechercher **************/
 
 .searchContainer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 0;;
-    
+    margin: 0;
 }
 
 .phraseHerbergement {
@@ -108,15 +100,13 @@ a {
 
 .searchContainer p {
     font-size: 16px;
-    
 }
 .searchTitle{
-    /* margin-bottom: 2.1875rem; */
-    margin-bottom: 35.04px;
+    
+    margin-bottom: 35px;
 }
 
 
-/* Formulaire de recherche*/
 
 .form {
     display: flex;
@@ -176,7 +166,7 @@ color: black;
 }
 
 
-/************ Filtres **************/
+
 
 .filtersArea{
     display: flex;
@@ -255,7 +245,6 @@ color: black;
 }
 
 
-/******* Main général ********/
 
 .main-container {
     width: 100%;
@@ -290,7 +279,7 @@ color: black;
 
 
 
-/****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -305,7 +294,7 @@ color: black;
 }
 
 
-/****** Hebergements ***********/
+
 .hebergements {
     width: 65%;
 }
@@ -361,7 +350,7 @@ margin-bottom: .5rem;
 
 
 
-/******** Populaires ***********/
+
 .populaires {
     width: 32%;
 }
@@ -407,7 +396,7 @@ margin-bottom: .5rem;
 }
 
 
-/************Activités***************/
+
 
 .activites {
     display: flex;
@@ -451,7 +440,7 @@ margin-bottom: .5rem;
     margin: 20px;
 }
 
-/************Footer***************/
+
 footer p:hover{
     cursor: pointer;
 }
@@ -512,57 +501,6 @@ footer{
    
 }
 
-/*Transition entre les tailles d'écran, non demandé mais essai pour gérer la réduction en largeur de la fenêtre*/
-
-
-/* @media (min-width: 63.9988rem) and (max-width: 81.25rem) {
-    
-
-    
-    .hebergements-and-populaires {
-        margin-left: auto;
-        margin-right: auto;
-        flex-direction: column;
-    }
-    .hebergements{
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 3.125rem;
-        width: 100%;
-        
-}
-    .populaires{
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    } */
-
-/*     
-    .populaires-cards{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between; */
-/*        
-    }   
-    .populaires-cards .card {
-        width: 30%;
-    }
-
-    .card-activites {
-        width: 20%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-  
-    }
-
-    .card-activites img{
-        object-fit: cover;
-        height: 12.5rem;
-        width: 100%;
-        border-radius: 1.25rem 1.25rem 0 0;
-}
-} */
 
 
 
@@ -634,7 +572,7 @@ body{
     }
    
 header{
-    margin: 20px 50px 0px 30px;
+    margin: 20px 50px 0px 50px;
 }
 
 .navigation {
@@ -647,10 +585,16 @@ header{
 }
 .navigation ul{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: center;
     width: 100%;
     padding: 0;
+}
+
+.navigation li  {
+    display: flex; 
+    justify-content: center;
+
 }
 
 .navLinks:link{
@@ -705,14 +649,14 @@ header{
 }
 
 .loupe{
-display: flex;
-justify-content: center;
-align-items: center;
-height: 50px;
-width: 50px;
-border-radius: 15px;
-background: var(--main-color);
-filter: drop-shadow(0rem .1875rem .9375rem rgba(0, 0, 0, 0.1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    background: var(--main-color);
+    filter: drop-shadow(0rem .1875rem .9375rem rgba(0, 0, 0, 0.1));
 }
 
 #loupe-icon{
@@ -729,7 +673,7 @@ filter: drop-shadow(0rem .1875rem .9375rem rgba(0, 0, 0, 0.1));
 }
 
 .filtres p{
-font-size: 1.125rem;
+    font-size: 1.125rem;
 }
 
 .filterContainer{
@@ -751,7 +695,7 @@ font-size: 1.125rem;
 
 
 
-/* *****hébergements & populaires******* */
+
 .hebergements-and-populaires section{
 
     border-radius: 0;
@@ -838,7 +782,7 @@ margin: 20px;
 font-size: 1.125rem;
 }
 
-/*********FOOTER Mobile ***********/
+
 
 footer{
     background-color: #F2F2F2;
